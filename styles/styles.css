@@ -1,5 +1,76 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/mauritius-beachcomber.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 280px 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+header h1 {
   font-weight: 700;
-  font-style: normal;
+  font-size: 96px;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #193146;
+  padding: 16px 32px;
+  margin-top: 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: whitesmoke;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    font-size: 9px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+  }
 }
