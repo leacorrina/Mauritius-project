@@ -55,16 +55,38 @@ header a {
   background: whitesmoke;
 }
 
-footer .grid {
+.grid {
   display: grid;
   grid-gap: 64px;
+}
+
+.grid-3-col-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-responsive {
+  max-width: 100%;
 }
 
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 100px 0;
+}
+
+main {
+  background-color: whitesmoke;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
 }
 
 div {
@@ -119,7 +141,8 @@ footer a {
   section {
     padding: 30px;
   }
-  footer .grid {
+
+  .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
