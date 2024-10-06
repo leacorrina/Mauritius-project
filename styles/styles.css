@@ -60,22 +60,34 @@ header a {
   grid-gap: 64px;
 }
 
-.grid-3-col-first-narrow {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-col-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-responsive {
   max-width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+}
+
 section {
-  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 50px;
 }
 
 main {
