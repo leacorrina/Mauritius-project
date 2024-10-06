@@ -85,6 +85,14 @@ header a {
   padding: 15px;
 }
 
+.card p {
+  padding: 30px 15px;
+}
+
+.flower {
+  border-radius: 70%;
+}
+
 section {
   margin: 0 auto;
   padding: 50px;
