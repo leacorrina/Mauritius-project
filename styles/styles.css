@@ -93,6 +93,11 @@ header a {
   border-radius: 70%;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 section {
   margin: 0 auto;
   padding: 50px;
@@ -107,6 +112,17 @@ main h2 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0;
+}
+
+main h5 {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+main .stats {
+  line-height: 2;
+  text-align: center;
 }
 
 div {
