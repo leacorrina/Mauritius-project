@@ -64,6 +64,11 @@ header a {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-2-sm-col {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -74,6 +79,8 @@ header a {
 
 .img-responsive {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .text-center {
@@ -86,16 +93,24 @@ header a {
 }
 
 .card p {
-  padding: 30px 15px;
+  padding: 0 10px 10px 10px;
+  font-size: 18px;
 }
 
-.flower {
+.flower-pic {
   border-radius: 70%;
+  padding: 20px 0 10px 0;
+}
+
+.food-pic {
+  border-radius: 5;
+  padding: 10px 0 0 0;
 }
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 16 / 9;
+  padding: 35px 0 0 0;
 }
 
 section {
@@ -114,15 +129,31 @@ main h2 {
   margin: 0;
 }
 
-main h5 {
-  font-weight: 400;
-  font-size: 12px;
-  opacity: 70%;
+main h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0 0 10px 0;
 }
 
-main .stats {
-  line-height: 2;
-  text-align: center;
+main h4 {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+main h5 {
+  font-weight: 400;
+  font-size: 11px;
+  opacity: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.stats {
+  line-height: 1.3;
+  text-align: left;
 }
 
 div {
@@ -177,9 +208,22 @@ footer a {
   section {
     padding: 30px;
   }
+  main p,
+  h2 {
+    text-align: center;
+  }
 
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .grid-2-sm-col {
+    grid-gap: 1px;
+  }
+
+  .stats {
+    line-height: 1;
+    text-align: center;
   }
 }
